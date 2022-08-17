@@ -1,6 +1,5 @@
 <p align="center">
   <img height="250" src="./logo-light.png#gh-light-mode-only" />
-  <img height="250" src="./logo-dark.png#gh-dark-mode-only" />
 </p>
 
 <h1 align="center"> JS-Barrels </h1>
