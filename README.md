@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="250" src="./logo-light.png" />
+  <img height="250" src="./logo.png" />
 </p>
 
 <h1 align="center"> JS-Barrels </h1>
