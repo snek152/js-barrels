@@ -34,7 +34,4 @@ After developing a Next.js project with many folders and files, I wanted to crea
 - Simplistic nature with only two CLI arguments
 - Includes a watch mode to detect file changes and regenerate barrels accordingly
 - Lightweight
-
-### Cons
-
-- Only works in flat directories as of right now, doesn't generate for nested ones
+- Generates barrels for nested directories
