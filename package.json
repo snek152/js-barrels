@@ -1,0 +1,50 @@
+{
+  "name": "js-barrels",
+  "version": "1.0.0",
+  "description": "A CLI for generating barrels in any Javascript project",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src",
+    "build": "tsc -p tsconfig.json",
+    "serve": "node ./dist/index.js",
+    "lint": "eslint . --ext '.js,.jsx,.ts,.tsx,.md'",
+    "format": "prettier -c --write '**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SneK152/js-barrels.git"
+  },
+  "keywords": [
+    "typescript",
+    "CLI",
+    "barrels",
+    "javascript",
+    "exports"
+  ],
+  "author": "SneK152",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SneK152/js-barrels.git"
+  },
+  "homepage": "https://github.com/SneK152/js-barrels.git",
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "@types/yargs": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "bin": "dist/index.js",
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-watch": "^0.7.3",
+    "yargs": "^17.5.1"
+  }
+}
