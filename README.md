@@ -1,7 +1,8 @@
 <p align="center">
-  ![JS-Barrels Logo](./logo-light.png#gh-light-mode-only)
-  ![JS-Barrels Logo](./logo-dark.png#gh-dark-mode-only)
+  <img height="250" src="./logo-light.png#gh-light-mode-only" />
+  <img height="250" src="./logo-dark.png#gh-dark-mode-only" />
 </p>
+
 <h1 align="center"> JS-Barrels </h1>
 <p align="center">
   <b>A CLI tool to generate barrels with ease, efficiency, and intelligence</b>
