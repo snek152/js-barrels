@@ -20,12 +20,12 @@ const argv = yargs_1.default
     watch: {
         alias: "w",
         type: "boolean",
-        description: "Watch and make barrels recursively",
+        description: "Watch directory and update barrels",
     },
     ext: {
         alias: "e",
         type: "string",
-        description: "An extension to create the barrel file with, if not provided the script will determine based on the files in the dir",
+        description: "Extension to create the barrel file with, auto-detected by default",
     },
 })
     .parseSync();
@@ -83,7 +83,7 @@ function makeBarrels(watch, dir, log) {
                             });
                         }
                     }
-                    else {
+                    if (fileContents.includes("export"))
                         e.push({
                             default: false,
                             name: "",
@@ -91,7 +91,6 @@ function makeBarrels(watch, dir, log) {
                                 ? file.split(".")[0]
                                 : file}`,
                         });
-                    }
                 }
             }
         }
