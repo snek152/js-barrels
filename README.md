@@ -17,9 +17,9 @@ npx js-barrels -d ./folder/to/generate/barrels/for
 
 ```bash
 -d, --dir      Directory to generate barrels for           [string] [required]
--w, --watch    Watch and make barrels recursively                    [boolean]
--e, --ext      An extension to create the barrel file with, if not provided
-               the script will determine based on the files in the dir[string]
+-w, --watch    Watch directory and update barrels                    [boolean]
+-e, --ext      Extension to create the barrel file with, auto-detected by
+               default                                                [string]
 ```
 
 ## Motivation
